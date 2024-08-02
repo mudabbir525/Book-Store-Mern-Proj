@@ -2,7 +2,7 @@
 
 ## Description
 
-A full-stack book store application built using the ME stack (MongoDB, Express, React, Node.js). This application allows users to manage books by creating, reading, updating, and deleting book entries. It includes a user-friendly interface for viewing book details and managing book records.
+A full-stack book store application built using the MER stack (MongoDB, Express, React, Node.js). This application allows users to manage books by creating, reading, updating, and deleting book entries. It includes a user-friendly interface for viewing book details and managing book records.
 
 ## Features
 
