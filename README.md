@@ -11,6 +11,7 @@ A full-stack book store application built using the MERN stack (MongoDB, Express
 - **Data Persistence**: MongoDB for storing book records.
 - **Routing**: React Router for navigation between pages.
 - **API Integration**: Express.js backend for handling HTTP requests.
+![Book Store MERN Project](https://github.com/mudabbir525/Book-Store-Mern-Proj/blob/main/book-store-mern.png)
 
 ## Technologies Used
 
