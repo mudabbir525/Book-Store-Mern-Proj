@@ -15,19 +15,19 @@ const Home = () => {
 
     useEffect(() => {
         setLoading(true);
-        axios
-            .get('http://localhost:5555/books')
-            .then((response) => {
-                console.log("API Response:", response); // Log full response
-                setBooks(response.data.data || []); // Adjust if needed based on response structure
-                setLoading(false);
-            })
-            .catch((error) => {
-                console.error("API Error:", error); // Log any errors
-                setLoading(false);
-            });
+        // Simulate API data
+        setTimeout(() => {
+            setBooks([
+                { _id: '1', title: 'It Ends with Us', author: 'Colleen Hoover', publishYear: 2016 },
+                { _id: '2', title: 'Gone Girl', author: 'Gillian Flynn', publishYear: 2012 },
+                { _id: '3', title: 'The Goldfinch', author: 'Donna Tartt', publishYear: 2013 },
+                { _id: '4', title: 'The Underground Railroad', author: 'Colson Whitehead', publishYear: 2016 },
+                { _id: '5', title: 'Where the Crawdads Sing', author: 'Delia Owens', publishYear: 2018 },
+                { _id: '6', title: 'Normal People', author: 'Sally Rooney', publishYear: 2018 },
+            ]);
+            setLoading(false);
+        }, 1000);
     }, []);
-
 
     return (
         <div className='p-4'>
